@@ -1,0 +1,53 @@
+@media screen and (max-width:  390px) {
+    .gerb_logo {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .lpd {
+        margin-top: 18px;
+        margin-left: 5px;
+        
+    }
+
+    .ikj {
+        font-size: 27px;
+    }
+
+    .ilo {
+        margin-top: 100px;
+    }
+
+    .gorod {
+        margin-left: 32px;
+    }
+
+    .merop {
+        margin-left: 124px;
+    }
+
+    .infa52 {
+        width: 390px;
+    }
+
+    .mmmmer {
+        width: 390px;
+    }
+
+    .jds {
+        display: none;
+    }
+
+    .sscc {
+        font-size: 20px;
+        width: 295px;
+    }
+
+    .infa{
+        width: 390px;
+    }
+    .cityname {
+        margin-top: 40px;
+    }
+
+}
