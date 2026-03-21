@@ -15,23 +15,36 @@
     }
 
     .ilo {
-        margin-top: 100px;
+        margin-top: 100px; 
+        text-align: center;
+        height: auto;
+        width: 100%;
+
+    }
+
+    .dsaw {
+        text-align: center;
     }
 
     .gorod {
-        margin-left: 32px;
+        margin-left: 0px;
     }
 
     .merop {
-        margin-left: 124px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .infa52 {
-        width: 390px;
+        width: 350px;
+    }
+
+    .adf {
+        font-size: 29px;
     }
 
     .mmmmer {
-        width: 390px;
+        width: 350px;
     }
 
     .jds {
@@ -44,10 +57,144 @@
     }
 
     .infa{
-        width: 390px;
+        width: 350px;
     }
     .cityname {
-        margin-top: 40px;
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width:  359px) {
+    .gerb_logo {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .lpd {
+        margin-top: 5px;
+        margin-left: 5px;
+        
+    }
+
+    .ikj {
+        font-size: 27px;
+    }
+
+    .ilo {
+        margin-top: 100px; 
+        text-align: center;
+        height: auto;
+        width: 100%;
+
+    }
+
+    .dsaw {
+        text-align: center;
+    }
+
+    .gorod {
+        margin-left: 0px;
+    }
+
+    .merop {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .infa52 {
+        width: 350px;
+    }
+
+    .adf {
+        font-size: 29px;
+    }
+
+    .mmmmer {
+        width: 350px;
+    }
+
+    .jds {
+        display: none;
+    }
+
+    .sscc {
+        font-size: 20px;
+        width: 295px;
+    }
+
+    .infa{
+        width: 350px;
+    }
+    .cityname {
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width:  342px) {
+    .gerb_logo {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .lpd {
+        margin-top: 5px;
+        margin-left: 5px;
+        
+    }
+
+    .ikj {
+        font-size: 27px;
+    }
+
+    .ilo {
+        margin-top: 100px; 
+        text-align: center;
+        height: auto;
+        width: 100%;
+
+    }
+
+    .dsaw {
+        text-align: center;
+    }
+
+    .gorod {
+        margin-left: 0px;
+    }
+
+    .merop {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .infa52 {
+        width: 350px;
+    }
+
+    .adf {
+        font-size: 29px;
+    }
+
+    .mmmmer {
+        width: 350px;
+    }
+
+    .jds {
+        display: none;
+    }
+
+    .sscc {
+        font-size: 20px;
+        width: 295px;
+    }
+
+    .infa{
+        width: 350px;
+    }
+    .cityname {
+        margin-top: 30px;
     }
 
 }
