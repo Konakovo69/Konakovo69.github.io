@@ -108,7 +108,7 @@ color: #00ff88;
 }
 
 .turizmstr {
-  margin-right: 10px;
+  margin-right: 30px;
   margin-left: 10px;
   color: #00ff88;
   font-size: 25px ;
@@ -237,7 +237,7 @@ header p {
   background: #00ff88;
   border-radius: 20px;
   text-decoration: none;
-
+  display: none;
 }
 
 /* Небольшая информация о городе и фотки */
