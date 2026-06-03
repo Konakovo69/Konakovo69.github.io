@@ -1,0 +1,986 @@
+canvas#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/*Страница index.html */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+/* Самая верхняя часть(header) */
+.lpd {
+  margin-top: 50px;
+  margin-left: 5px;
+}
+
+.sscc {
+  margin: 0 auto;
+  width: 462px;
+  padding-top: 15px;
+}
+
+.ikj {
+  font-size: 35px;
+  text-decoration: none;
+  color: white;
+}
+
+.header-footer {
+  display: flex;
+
+}
+
+.sf-sub-indicator {
+  height: 1em;
+  line-height: 9999px;
+  opacity: 0.75;
+  overflow: hidden;
+  position: absolute;
+  right: 0.75em;
+  speak: none;
+  text-indent: -9999px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 1em;
+}
+
+.sf-sub-indicator:after {
+  content: "\25BC";
+  left: 0;
+  line-height: 1;
+  position: absolute;
+  text-indent: 0;
+  top: 0;
+  color: #ffffff;
+}
+
+.sf-sub-indicator_color {
+  height: 1em;
+  line-height: 9999px;
+  opacity: 0.75;
+  overflow: hidden;
+  position: absolute;
+  right: 0.75em;
+  speak: none;
+  text-indent: -9999px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 1em;
+}
+
+.sf-sub-indicator_color:after {
+  content: "\25BC";
+  left: 0;
+  line-height: 1;
+  position: absolute;
+  text-indent: 0;
+  top: 0;
+  color: #3d3d3e;
+}
+
+.gerb_logo {
+  width: 100px;
+  width: 70px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.ilo {
+  height: 28px;
+  margin-top: 57px;
+  position: absolute;
+  right: 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.perehod {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px ;
+}
+
+.perehod:hover {
+color: #00ff88;
+  font-size: 25px ;
+  text-decoration: none;
+}
+
+.gorod {
+  margin-right: 10px;
+}
+
+.novosti {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.merop {
+  margin-left: 10px;
+  margin-right: 30px;
+}
+
+.meropstr {
+  margin-left: 10px;
+  margin-right: 30px;
+  color: #00ff88;
+  font-size: 25px ;
+  text-decoration: none;
+}
+
+.turizmstr {
+  margin-right: 30px;
+  margin-left: 10px;
+  color: #00ff88;
+  font-size: 25px ;
+  text-decoration: none;
+}
+
+.turizmstrrt {
+  margin-right: 30px;
+  margin-left: 10px;
+  color: #ffffff;
+  font-size: 25px ;
+  text-decoration: none;
+}
+
+.turizmstrrt:hover {
+  margin-right: 30px;
+  margin-left: 10px;
+  color: #00ff88;
+  font-size: 25px ;
+  text-decoration: none;
+}
+.deti {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #ffffff;
+  font-size: 25px ;
+  text-decoration: none;
+}
+
+.detistr{
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #00d370;
+  font-size: 25px ;
+  text-decoration: none;
+}
+
+.novostistr {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #00ff88;
+  font-size: 25px ;
+  text-decoration: none;
+}
+
+.gorodstr {
+  margin-right: 10px;
+  color: #00ff88;
+  font-size: 25px ;
+  text-decoration: none;
+}
+
+.obrazovstr {
+    margin-right: 10px;
+  margin-left: 10px;
+  color: #00d370;
+  font-size: 25px ;
+  text-decoration: none;
+}
+
+
+
+/* Текст Конаково и кнопка */
+
+header {
+  text-align: center;
+  padding: 50px 20px 60px 20px;
+}
+
+header h1 {
+  font-size: 60px;
+  margin: 0 0 20px 0;
+}
+
+header p {
+  font-size: 24px;
+  margin: 0 0 40px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 20px;
+  color: #000000;
+  background: #00ff88;
+  border-radius: 30px;
+  text-decoration: none;
+  animation: pulse 2s infinite;
+}
+
+.bdtn {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 20px;
+  color: #000000;
+  background: #00d370;
+  border-radius: 30px;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+.bdatn {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 20px;
+  color: #000000;
+  background: #00d370;
+  border-radius: 30px;
+  text-decoration: none;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+/* Новости города */
+
+.infa52 {
+  width: 990px;
+  height: 463px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: right;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin-bottom: 80px;
+}
+
+
+.new1 {
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  height: 300px;
+  margin-left: 45px;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.1);
+  text-align: center;  
+  margin-top: 15px;
+}
+
+.imhj {
+  width: 400px;
+  border-radius: 15px;
+}
+
+
+.btan {
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 20px;
+  color: #000000;
+  background: #00ff88;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+/* Небольшая информация о городе и фотки */
+
+.infa {
+  width: 990px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+}
+
+.infa1 {
+  width: 540px;
+  text-align: center;
+}
+
+/* Карточки достопримечательностей */
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(0,255,136,0.7); }
+  70% { box-shadow: 0 0 0 20px rgba(0,255,136,0); }
+  100% { box-shadow: 0 0 0 0 rgba(0,255,136,0); }
+}
+
+section#attractions {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section#attractions h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  background: rgba(255,255,255,0.1);
+  border-radius: 15px;
+  width: 300px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin: 15px 0 10px 0;
+  font-size: 24px;
+}
+
+.card p {
+  margin: 0 15px 20px 15px;
+  font-size: 16px;
+  color: #ccc;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px #00ff885b;
+}
+
+.cardss:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px #00ff885b;
+}
+
+.cardssss:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px #007940;
+}
+
+ 
+/* Параллакс для секций */
+section {
+  transform: translateY(0);
+  transition: transform 0.5s ease-out;
+}
+
+
+/* Анимация появления карточек */
+.cards .card {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.cards .card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.mmmmer {
+  width: 990px;
+  height: 463px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: right;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin-bottom: 80px;
+  margin-top: 70px;
+}
+
+
+/* Страница О Городе */
+
+.gorodstraniz {
+  width: 990px;
+  height: 2530px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin-bottom: 80px;
+  padding-top: 6px;
+}
+
+.istoria {
+  width: 900px;
+  margin-left: 45px;
+  font-size: 19px;
+}
+
+/* Страница Дети */
+
+.cards-deti {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card-detisd {
+  width: 990px;
+  height: 4000px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: right;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin-bottom: 80px;
+}
+
+.cards-deti-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.cards-deti-h {
+  margin: 15px 0 10px 0;
+  font-size: 24px;
+}
+
+.cards-deti-p {
+  margin: 0 15px 20px 15px;
+  font-size: 16px;
+  color: #ccc;
+}
+
+.pereliv {
+  animation: change-backround 30s ease infinite;
+}
+
+@keyframes change-backround{
+
+0% {
+    background: #53e3a75b;
+}
+
+10% {
+    background: #539de35b;
+}
+
+20% {
+    background: #7953e35b;
+}
+
+30% {
+    background: #a953e35b;
+}
+
+40% {
+    background: #e353d05b;
+}
+
+50% {
+    background: #e3539b5b;
+}
+
+60% {
+    background: #8a53e35b;
+}
+
+70% {
+    background: #8a53e35b;
+}
+
+80% {
+    background: #e353535b;
+}
+
+90% {
+    background: #6d53e35b;
+}
+
+100% {
+    background: #53e3a75b;
+}
+}
+
+.pllllx {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(45deg,  #8fa4ff,  #c5ff8f);
+  color: #fff;
+  overflow-x: hidden;
+}
+
+
+/* Страница Туризм */
+
+.cdswerds {
+  width: 437px;
+}
+
+.asdfgjdhfr {
+  width: 463px;
+  border-radius: 15px;
+}
+
+.asdfgjsddhfr {
+  width: 400px;
+  border-radius: 15px;
+}
+
+.img-dvorec-vorov {
+  width: 533px;
+  border-radius: 15px;
+}
+
+.img-dvorec-sovrem {
+  width: 370px;
+  border-radius: 15px;
+}
+
+.wids {
+  width: 500px;
+}
+
+.card-dostoprem-turizm {
+  width: 990px;
+  height: 750px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: right;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin-bottom: 80px;
+}
+
+
+
+.mini-card-dostoprem-konakovski-kraeved-musei-vnizu {
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  height: 300px;
+  margin-left: 45px;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.1);
+  text-align: center;  
+  margin-top: 30px;
+}
+
+
+/* Страница Туризм(что посетить) */
+.card-chtoposetit {
+  width: 990px;
+  height: 4000px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: right;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin-bottom: 80px;
+}
+
+.mini-card-chtoposetit-konakovski-kraeved-musei {
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  height: 300px;
+  margin-left: 45px;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.1);
+  text-align: center;  
+  margin-top: 30px;
+}
+
+.asdasdx {
+  width: 437px;
+}
+
+.asdasdsax {
+  width: 500px;
+}
+
+
+
+
+/* Страница Туризм(достопремичательности) */
+
+.card-dostoprem {
+  width: 990px;
+  height: 3740px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: right;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin-bottom: 80px;
+}
+
+
+.mini-card-dostoprem-konakovski-kraeved-musei {
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  height: 300px;
+  margin-left: 45px;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.1);
+  text-align: center;  
+  margin-top: 30px;
+}
+
+.turizm-dostoprem-knk-musei {
+  width: 437px;
+  
+}
+
+.turizm-dostoprem-knk-faians {
+  width: 500px;
+}
+
+.img-konakovski-faians {
+  width: 400px;
+  border-radius: 15px;
+}
+.img-konakovski-hram {
+  width: 400px;
+  border-radius: 15px;
+}
+
+.img-konakovski-bor {
+  width: 462px;
+  border-radius: 15px;
+}
+
+.img-konakovski-pam-konakovu {
+  width: 417px;
+  border-radius: 15px;
+}
+
+.img-konakovski-memorial-tru {
+  width: 400px;
+  border-radius: 15px;
+}
+
+.img-konakovski-lenin {
+  width: 400px;
+  border-radius: 15px;
+}
+
+.img-konakovski-vereshagin {
+  width: 504px;
+  border-radius: 15px;
+}
+
+.img-konakovski-kzsk {
+  width: 534px;
+  border-radius: 15px;
+}
+
+.img-konakovski-osetr {
+  width: 450px;
+  border-radius: 15px;
+}
+
+.img-konakovski-gres {
+  width: 450px;
+  border-radius: 15px;
+}
+
+
+
+
+/* Страница Туризм(где поесть) */
+
+.card-gdepoest {
+  width: 990px;
+  height: 3340px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: right;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin-bottom: 80px;
+}
+
+.cards-gdepoest {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.cardss {
+  background: rgba(255,255,255,0.1);
+  border-radius: 15px;
+  width: 300px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cardssss {
+  background: rgba(255,255,255,0.1);
+  border-radius: 15px;
+  width: 300px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cards-gdepoest-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.cards-gdepoest-h {
+  margin: 15px 0 10px 0;
+  font-size: 24px;
+}
+
+.cards-gdepoest-p {
+  margin: 0 15px 20px 15px;
+  font-size: 16px;
+  color: #ccc;
+}
+
+/* Марки */
+
+.breadcrumb__item {
+  display: inline-block;
+  
+
+  &:nth-child(n + 2)::before {
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-inline: 1rem 1.25rem;
+    content: "";
+    transform: rotate(45deg); /* LTR */
+    border-block-start: 2px solid ;
+    border-inline-end: 2px solid ;
+    color: #fff;
+  }
+}
+
+.breadcrumb__item_color {
+  display: inline-block;
+  
+
+  &:nth-child(n + 2)::before {
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-inline: 1rem 1.25rem;
+    content: "";
+    transform: rotate(45deg); /* LTR */
+    border-block-start: 2px solid ;
+    border-inline-end: 2px solid ;
+    color: #3d3d3e;
+  }
+}
+
+.breadcrumb__link {
+color: #00ff88;
+text-decoration: none;
+
+}
+
+
+.fin {
+  color: #00ff88;
+  text-decoration: none;
+}
+
+
+/* Випадение */
+
+
+
+/* Dropdown Button */
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #00ff88;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 20px;
+}
+
+
+/* Links inside the dropdown */
+
+.dropdown-ap {
+  text-decoration: none;
+  color: black;
+  padding: 12px 16px;
+  display: block;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.dropdown-center {
+  text-decoration: none;
+  color: black;
+  padding: 12px 16px;
+  display: block;
+}
+
+.dropdown-down {
+  text-decoration: none;
+  color: black;
+  padding: 12px 16px;
+  display: block;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+  background-color: #ddd
+}
+
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+
+/* Страница Новости */
+
+.card-vsenovosti {
+  width: 990px;
+  height: 463px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: right;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin-bottom: 80px;
+}
+
+
+
+
+.img-school1 {
+  width: 35%;
+  margin-left: 50px;
+  margin-top: 30px;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #ffffff;
+}
+
+.img-school10 {
+  width: 20%;
+  margin-left: 50px;
+  margin-top: 30px;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #ffffff;
+}
+
+
+.div-scoll1 {
+  display: flex;
+}
+
+.div2-school1 {
+  width: 100%;
+  margin-left: 20px;
+}
+
+.p_school {
+  font-size: 25px;
+  color: #3d3d3e;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
